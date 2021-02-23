@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>129210017752-5jsvsf100gls613aijagobg0pfi2hpbr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.129210017752-5jsvsf100gls613aijagobg0pfi2hpbr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAzA1Ysjux5MNLDtiRCK7a_BiNqglxs26A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>129210017752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>itzikyfe.PicShare</string>
+	<key>PROJECT_ID</key>
+	<string>projectios-8221e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>projectios-8221e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:129210017752:ios:8885fa2c271455ca7834ad</string>
+	<key>DATABASE_URL</key>
+	<string>https://projectios-8221e.firebaseio.com</string>
+</dict>
+</plist>

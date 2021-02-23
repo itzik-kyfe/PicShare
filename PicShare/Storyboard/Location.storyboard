@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UUv-Dh-kR7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Location Services Request View Controller-->
+        <scene sceneID="7xB-0x-mH4">
+            <objects>
+                <viewController id="UUv-Dh-kR7" customClass="LocationServicesRequestViewController" customModule="PicShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U8R-pu-MfA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundLocationServices" translatesAutoresizingMaskIntoConstraints="NO" id="K3d-fI-fZh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyv-pi-Jj8">
+                                <rect key="frame" x="108" y="700" width="198" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="HuO-CP-aee"/>
+                                    <constraint firstAttribute="width" constant="198" id="mU3-uK-x1X"/>
+                                </constraints>
+                                <state key="normal" image="BtnOpenSetting"/>
+                                <connections>
+                                    <action selector="openSetting:" destination="UUv-Dh-kR7" eventType="touchUpInside" id="lac-ZS-8lB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1qO-5G-kVL"/>
+                        <color key="backgroundColor" red="0.84812551739999997" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="K3d-fI-fZh" firstAttribute="leading" secondItem="U8R-pu-MfA" secondAttribute="leading" id="9Zc-L1-ayX"/>
+                            <constraint firstAttribute="trailing" secondItem="K3d-fI-fZh" secondAttribute="trailing" id="A7i-f0-zpF"/>
+                            <constraint firstItem="Nyv-pi-Jj8" firstAttribute="centerX" secondItem="K3d-fI-fZh" secondAttribute="centerX" id="iRZ-ed-gLX"/>
+                            <constraint firstItem="K3d-fI-fZh" firstAttribute="top" secondItem="U8R-pu-MfA" secondAttribute="top" id="lOE-Cl-QKc"/>
+                            <constraint firstItem="Nyv-pi-Jj8" firstAttribute="top" secondItem="1qO-5G-kVL" secondAttribute="top" constant="656" id="qJm-Cy-svI"/>
+                            <constraint firstAttribute="bottom" secondItem="K3d-fI-fZh" secondAttribute="bottom" id="tp1-5L-h8s"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eHo-Nu-MqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-518.84057971014499" y="200.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BtnOpenSetting" width="235" height="53"/>
+        <image name="backgroundLocationServices" width="375" height="809"/>
+    </resources>
+</document>
